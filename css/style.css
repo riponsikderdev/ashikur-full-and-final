@@ -107,6 +107,7 @@ ol {
 /* NAVBAR STARTS HERE */
 nav .logo {
     width: 40%;
+    margin-top: 20px;
 }
 
 nav .menu {
