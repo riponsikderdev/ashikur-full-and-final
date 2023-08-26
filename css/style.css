@@ -733,8 +733,9 @@ img #about .about_cnt {
 /* SERVICES ENDS HERE */
 /* FEEDBACK STARTS HERE */
 #feedback {
-    padding: 91px;
+    padding-top: 91px;
     background: #FBFBFB;
+    padding-bottom: 58px;
 }
 
 #feedback .heading h1 {
