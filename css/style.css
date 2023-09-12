@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primaryfont: font-family: 'Poppins', sans-serif;
-    --secondaryfont: font-family: 'PT Sans', sans-serif;
+    --primaryfont: 'Poppins', sans-serif;
+    --secondaryfont: 'PT Sans', sans-serif;
     --primarycolor: #FFCC00;
     --secondarycolor: #353535;
 }
@@ -282,7 +282,7 @@ nav .menu li:hover a::after {
     display: block;
 }
 
-img #about .about_cnt {
+#about .about_cnt {
     width: 45%;
 }
 
@@ -366,7 +366,7 @@ img #about .about_cnt {
 
 #branding .branding_image img {
     position: relative;
-    bottom: -20px;
+    bottom: -34px;
 }
 
 #branding .branding_cnt {
@@ -384,8 +384,8 @@ img #about .about_cnt {
 #branding .branding_cnt p {
     color: #353535;
     font-family: var(--primaryfont);
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 410;
     line-height: 34.2px;
     margin-top: 21px;
     margin-bottom: 35px;
@@ -493,7 +493,7 @@ img #about .about_cnt {
     color: #353535;
     text-align: right;
     font-family: var(--primaryfont);
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 38px;
     margin-top: 26px;
@@ -518,7 +518,7 @@ img #about .about_cnt {
 }
 
 #help .text_right .same {
-    margin-left: 165px;
+    margin-left: 120px;
 }
 
 #help .text_one {
@@ -627,11 +627,11 @@ img #about .about_cnt {
 }
 
 #area .text {
-    width: 70%;
+    width: 65%;
 }
 
 #area .cnt {
-    width: 30%;
+    width: 35%;
 }
 
 #area .text .heading {
@@ -645,7 +645,6 @@ img #about .about_cnt {
     font-weight: 400;
     line-height: 40px;
     width: 585px;
-    margin-bottom: 39px;
 }
 
 #area .cnt .button {
@@ -656,6 +655,10 @@ img #about .about_cnt {
 
 #area .cnt .button .border_none {
     border: none;
+}
+
+#area .text .btn {
+    margin-top: 40px;
 }
 
 /* AREA ENDS HERE */
@@ -677,6 +680,7 @@ img #about .about_cnt {
     font-weight: 400;
     line-height: 32.4px;
     margin-top: 13px;
+    margin-bottom: 50px;
 }
 
 #services .content {
@@ -968,7 +972,7 @@ footer .call {
 }
 
 footer .call img {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 185px;
 }
 
@@ -1038,7 +1042,7 @@ footer .social {
 
 footer .social .btn1 {
     margin-top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
 footer .social .icons p {
